@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@nfreear/mysql-report",
+  "version": "0.1.0",
+  "description": "Dump and query a MySQL database (ADMINS Bot-related).",
+  "author": "Nick Freear",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/nfreear/mysql-report-js.git",
+  "X-type": "module",
+  "scripts": {
+    "dump": "ts-node src/dump.ts ",
+    "X-dump": "ts-node -O'{\"lib\":\"ES2015\"}' src/dump.ts && ls -lh ./dump*"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^14.6.0",
+    "dotenv": "^8.2.0",
+    "mysqldump": "^3.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
