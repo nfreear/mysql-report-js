@@ -6,10 +6,8 @@
   "author": "Nick Freear",
   "license": "UNLICENSED",
   "repository": "https://github.com/nfreear/mysql-report-js.git",
-  "X-type": "module",
   "scripts": {
-    "dump": "ts-node src/dump.ts ",
-    "X-dump": "ts-node -O'{\"lib\":\"ES2015\"}' src/dump.ts && ls -lh ./dump*"
+    "dump": "ts-node src/dump.ts && ls -lh ./dump*"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
