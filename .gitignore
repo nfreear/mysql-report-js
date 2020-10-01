@@ -1,6 +1,7 @@
 
 .env
 node_modules
+data
 package-lock.json
 *.sql
 *.gz

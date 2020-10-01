@@ -7,12 +7,16 @@
   "license": "UNLICENSED",
   "repository": "https://github.com/nfreear/mysql-report-js.git",
   "scripts": {
-    "dump": "ts-node src/dump.ts && ls -lh ./dump*"
+    "dump": "ts-node src/dump.ts && ls -lh ./dump*",
+    "ip": "ts-node src/ip.ts",
+    "net": "netstat -nr | grep default",
+    "profile": "ts-node src/user-profile.ts"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/node": "^14.6.0",
     "dotenv": "^8.2.0",
+    "knex": "^0.21.6",
     "mysqldump": "^3.2.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
